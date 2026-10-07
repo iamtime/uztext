@@ -1,0 +1,27 @@
+{
+    "name": "iamtime/uztext",
+    "description": "Uzbek text for search: apostrophes, Latin and Cyrillic, wrong keyboard layout, word endings.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["uzbek", "search", "transliteration", "stemmer", "o'zbek"],
+    "require": {
+        "php": "^8.2",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "pestphp/pest": "^3.0 || ^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Uztext\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "pest"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
