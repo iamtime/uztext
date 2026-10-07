@@ -3,7 +3,7 @@
     "description": "Uzbek text for search: apostrophes, Latin and Cyrillic, wrong keyboard layout, word endings.",
     "type": "library",
     "license": "MIT",
-    "keywords": ["uzbek", "search", "transliteration", "stemmer", "o'zbek"],
+    "keywords": ["uzbek", "search", "transliteration", "stemmer", "ozbek"],
     "require": {
         "php": "^8.2",
         "ext-mbstring": "*"
